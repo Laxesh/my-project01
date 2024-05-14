@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Nevbar></Nevbar>
-      <div>About</div>;
+      <div>About</div>
     </>
   );
 };
