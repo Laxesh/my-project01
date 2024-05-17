@@ -1,5 +1,7 @@
 import React from "react";
 import Nevbar from "../components/Nevbar";
+import { Link } from "react-router-dom";
+// import { Signup } from "./Singup";
 
 const Login = () => {
   return (
@@ -27,8 +29,7 @@ const Login = () => {
               <div className="space-y-5">
                 <div>
                   <label htmlFor="" className="text-base font-medium text-gray-900">
-                    {" "}
-                    Email address{" "}
+                    Email address
                   </label>
                   <div className="mt-2">
                     <input
@@ -44,10 +45,10 @@ const Login = () => {
                       {" "}
                       Password{" "}
                     </label>
-                    <a href="#" title="" className="text-sm font-semibold text-black hover:underline">
+                    <Link to="Singup" title="" className="text-sm font-semibold text-black hover:underline">
                       {" "}
                       Forgot password?{" "}
-                    </a>
+                    </Link>
                   </div>
                   <div className="mt-2">
                     <input
