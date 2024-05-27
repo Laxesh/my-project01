@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <>
-      <Nevbar></Nevbar>
+      <Nevbar title="Shop"></Nevbar>
       <section className="rounded-md p-2">
         <div className="flex items-center justify-center bg-white px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
           <div className="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">

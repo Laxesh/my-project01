@@ -4,7 +4,7 @@ import Nevbar from "../components/Nevbar";
 const About = () => {
   return (
     <>
-      <Nevbar></Nevbar>
+      <Nevbar title="Shop"></Nevbar>
       <div>About</div>
     </>
   );

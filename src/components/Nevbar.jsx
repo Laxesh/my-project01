@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Nevbar() {
+function Nevbar(props) {
   return (
     <>
       <div className="flex justify-between bg-slate-500 text-slate-100 p-4 font-medium">
-        Logo
+        <Link to="/">{props.title}</Link>
+
         <div>
           <ul className="flex gap-6">
             <li>
@@ -26,5 +27,13 @@ function Nevbar() {
     </>
   );
 }
+
+// Nevbar.prototypes = {
+//   title: PropTypes.string,
+// };
+
+// Nevbar.defaultProps = {
+//   title: "set tile here",
+// };
 
 export default Nevbar;
